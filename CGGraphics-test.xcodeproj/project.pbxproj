@@ -13,6 +13,8 @@
 		6FCF3CEA2AEE85B00064AD78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FCF3CE82AEE85B00064AD78 /* Main.storyboard */; };
 		6FCF3CEC2AEE85B10064AD78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCF3CEB2AEE85B10064AD78 /* Assets.xcassets */; };
 		6FCF3CEF2AEE85B10064AD78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FCF3CED2AEE85B10064AD78 /* LaunchScreen.storyboard */; };
+		6FCF3CF72AEE85C70064AD78 /* CGArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCF3CF62AEE85C70064AD78 /* CGArcView.swift */; };
+		6FCF3CF92AEE8F820064AD78 /* CGContext+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCF3CF82AEE8F820064AD78 /* CGContext+extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6FCF3CEB2AEE85B10064AD78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FCF3CEE2AEE85B10064AD78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FCF3CF02AEE85B10064AD78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FCF3CF62AEE85C70064AD78 /* CGArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGArcView.swift; sourceTree = "<group>"; };
+		6FCF3CF82AEE8F820064AD78 /* CGContext+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGContext+extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				6FCF3CE22AEE85B00064AD78 /* AppDelegate.swift */,
 				6FCF3CE42AEE85B00064AD78 /* SceneDelegate.swift */,
 				6FCF3CE62AEE85B00064AD78 /* ViewController.swift */,
+				6FCF3CF62AEE85C70064AD78 /* CGArcView.swift */,
+				6FCF3CF82AEE8F820064AD78 /* CGContext+extensions.swift */,
 				6FCF3CE82AEE85B00064AD78 /* Main.storyboard */,
 				6FCF3CEB2AEE85B10064AD78 /* Assets.xcassets */,
 				6FCF3CED2AEE85B10064AD78 /* LaunchScreen.storyboard */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FCF3CE72AEE85B00064AD78 /* ViewController.swift in Sources */,
+				6FCF3CF72AEE85C70064AD78 /* CGArcView.swift in Sources */,
 				6FCF3CE32AEE85B00064AD78 /* AppDelegate.swift in Sources */,
 				6FCF3CE52AEE85B00064AD78 /* SceneDelegate.swift in Sources */,
+				6FCF3CF92AEE8F820064AD78 /* CGContext+extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
